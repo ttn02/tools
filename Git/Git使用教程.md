@@ -4,9 +4,19 @@ Git使用教程
 
 查看仓库状态：git status
 
+克隆仓库：git clone <仓库URL>
+
 添加文件到暂存区：git add （文件或“.”添加全部文件）
 
-提交文件到仓库：git commit -m （文件）
+提交文件到仓库：git commit -m "提交信息"
+
+添加远程仓库：git remote add origin <仓库URL>
+
+推送到远程仓库：git push origin <分支名>
+
+拉取更新远程仓库：git pull origin <分支名>
+
+
 
 ### 1. 安装 Git
 
