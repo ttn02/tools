@@ -25,40 +25,72 @@
 
 ~~~js
 {
-  // 自动切换编码类型
-  "files.autoGuessEncoding": true, 
-      
-  // 使光标移动更加丝滑
-  "workbench.list.smoothScrolling": true,
+  "fittencode.languagePreference.displayPreference": "zh-cn",
+  "fittencode.languagePreference.commentPreference": "zh-cn",
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "files.autoGuessEncoding": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "editor.cursorBlinking": "smooth",
-  
-  // crl + 鼠标滚轮 进行视图缩放
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
   "editor.mouseWheelZoom": true,
-   
-  // 格式化代码设置
   "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
   "editor.formatOnSave": true,
-      
-  // 自动折行，会把挤出去的代码显示到下一行，不改变行号
-  "editor.wordWrap": "on",
-      
-  // 彩虹括号
+  "editor.formatOnType": true,
   "editor.guides.bracketPairs": true,
-  //"editor.bracketPairColorization.enabled": true, (此设置vscode在较新版本已默认开启)
-  
-  // 代码补全，如有其它代码补全工具，可不开启
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.acceptSuggestionOnEnter": "smart",
-  "editor.suggestSelection": "recentlyUsed",
-   
-  // 应用的主题风格习惯
   "window.dialogStyle": "custom",
-      
-  // 断点设置更明显，会在最右边的滚动条中显示，方便更快的定位断点位置
   "debug.showBreakpointsInOverviewRuler": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.bracketSameLine": true,
+  // "background.editor": {
+  //   "useFront": true,
+  //   "style": {
+  //     "background-position": "55% 20%",
+  //     "background-size": "auto",
+  //     "opacity": 0.4
+  //   },
+  //   "styles": [{}, {}, {}],
+  //   "images": ["https://w.wallhaven.cc/full/5g/wallhaven-5ge715.jpg"],
+  //   "interval": 0,
+  //   "random": false
+  // },
+  "background.fullscreen": {
+    "images": [
+      "https://w.wallhaven.cc/full/5g/wallhaven-5ge715.jpg"
+    ],
+    "opacity": 0.15,
+    "size": "cover",
+    "position": "center",
+    "interval": 0,
+    "random": false
+  },
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "vue.autoInsert.dotValue": true,
+
+  "prettier.singleAttributePerLine": true,
+  "prettier.printWidth": 80,
+  "prettier.requireConfig": true,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "background.enabled": false
+
+  
 }
 
 ~~~
